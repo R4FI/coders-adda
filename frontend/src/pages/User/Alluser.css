@@ -1,0 +1,16 @@
+.users{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px;
+}
+.offercard{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+@media (max-width: 800px){
+    .offercard{
+        flex-direction: column;
+    }
+}
